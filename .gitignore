@@ -1,0 +1,77 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@vishalsahare 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+GoesToEleven
+/
+golang-web-dev
+200
+2.1k1k
+ Code Issues 6 Pull requests 1 Actions Projects 0 Wiki Security Insights
+golang-web-dev/.gitignore
+@GoesToEleven GoesToEleven aws
+2eb08ad on 5 Dec 2016
+Executable File  56 lines (45 sloc)  649 Bytes
+  
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+# WebStorm
+*.iml
+
+# Directory-based project format:
+.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+# mac hidden files
+.DS_Store
+
+#other
+node_modules/
+bower_components/
+.tmp
+.sass-cache
+builds/**/images/*
+*.ogg
+*.mp3
+*.mp4
+#*.png
+#*.jpeg
+
+# security / ssl
+*.pem
+*.xxjson
+
+
